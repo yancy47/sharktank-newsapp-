@@ -1,0 +1,171 @@
+body {
+  background-color: rgb(229, 227, 222);
+  color: rgb(88, 45, 8);
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.author {
+  text-align: left;
+  color: gray;
+  left: 0;
+}
+
+img {
+  width: 280px;
+  height: 200px;
+  margin: 0;
+  padding: 30px;
+  border-radius: 20%;
+}
+
+.cardbox {
+  display: grid;
+  grid-template-columns: repeat(6, 300px);
+  grid-template-rows: repeat(6, 400px);
+  padding-top: 30px;
+  justify-content: center;
+}
+
+.topCard {
+  background-color: rgb(246, 243, 239);
+  border-radius: 5%;
+  margin-top: 20px;
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  width: 300px;
+  height: 350px;
+}
+
+.topCard a {
+  padding: 20px;
+  margin: 0;
+}
+
+.Home {
+  max-width: 100%;
+  height: 1000px;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  font-size: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.Author {
+  max-width: 100%;
+  height: 1000px;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  font-size: 25px;
+  list-style-type: none;
+}
+
+.topCard:hover {
+  box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  padding: 20px;
+  margin: 0;
+}
+
+.navBar {
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(209, 131, 79);
+  padding: 15px;
+  font-size: 2em;
+}
+
+.navBar a {
+  color: rgb(11, 6, 0);
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 40px;
+  margin-right: 10px;
+}
+
+.navbar a:hover {
+  color: rgb(79, 191, 209);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  margin: 5px;
+}
+
+.newsDetail {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.detailing {
+  width: 500px;
+  height: 200px;
+}
+
+.titledetail {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(44, 17, 3);
+  padding: 20px;
+  margin: 0;
+
+}
+
+.detailContent {
+  text-align: justify;
+}
+
+.date {
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(85, 82, 82);
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  border-radius: 10%;
+  border: rgb(44, 17, 3) solid 1px;
+  background-color: rgb(216, 138, 42);
+  font-size: 16px;
+}
